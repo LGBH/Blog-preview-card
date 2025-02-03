@@ -34,7 +34,7 @@ body {
 .card {
   font-family: 'Figtree';
   background-color: var(--White);
-  width: 400px;
+  width: 375px;
   padding: 24px;
   border-radius: 18px;
   box-shadow: 10px 10px var(--Gray950); /* sombra */
