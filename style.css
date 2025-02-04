@@ -33,6 +33,7 @@ body {
 
 .card__container {
   font-family: 'Figtree';
+  font-size: 1rem;
   background-color: var(--White);
   max-width: 410px;
   min-height: 300%;
