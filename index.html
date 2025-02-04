@@ -8,45 +8,59 @@
   </head>
   <body>
     <body>
-
       <!--Puntos de referencia ARIA recomendados:-->
       <!--role="complementary" → Para contenido relacionado pero no principal (sidebar o widgets).-->
 
       <!-- Contenedor principal -->
-       <!--role="main" → Para el contenido principal (article o section).-->
-       <div class="card__container">
-          <!-- Imagen de la tarjeta -->
-           <!--role="banner" → Para la cabecera principal (header).-->
-           <header role="banner">
-            <img class="header__illustration" src="./assets/images/illustration-article.svg" alt="Imagen de fondo"/>
-          </header>
+      <!--role="main" → Para el contenido principal (article o section).-->
+      <div class="card__container">
+        <!-- Imagen de la tarjeta -->
+        <!--role="banner" → Para la cabecera principal (header).-->
+        <header role="banner">
+          <img
+            class="header__illustration"
+            src="./assets/images/illustration-article.svg"
+            alt="Imagen de fondo"
+          />
+        </header>
         <div role="main">
           <!-- Contenido del artículo -->
-           <!--role="region" → Para agrupar contenido específico dentro del main.-->
-          <article role="region" aria-labelledby="article-title" class="card__article">
+          <!--role="region" → Para agrupar contenido específico dentro del main.-->
+          <article
+            role="region"
+            aria-labelledby="article-title"
+            class="card__article"
+          >
             <div role="status" class="article__tag">Learning</div>
             <div role="time" class="article__date">Published 02 Feb. 2025</div>
             <h1 id="article-title">HTML & CSS foundations</h1>
             <div role="article" class="article__description">
-              <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+              <p>
+                These languages are the backbone of every website, defining
+                structure, content, and presentation.
+              </p>
             </div>
-      
+
             <!-- Perfil del autor -->
             <div role="group" class="article__perfil">
-              <img class="perfil__avatar" src="./assets/images/image-avatar.webp" alt="Imagen del perfil"/>
+              <img
+                class="perfil__avatar"
+                src="./assets/images/image-avatar.webp"
+                alt="Imagen del perfil"
+              />
               <p>LGBH</p>
             </div>
-          </article>      
+          </article>
         </div>
         <!-- Pie de página -->
-           <!--role="contentinfo" → Para el footer (información de la página).-->
-           <footer role="contentinfo" class="attribution">
-            Challenge by
-            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#" class="name">LGBH</a>.
-          </footer>
-       </div>
+        <!--role="contentinfo" → Para el footer (información de la página).-->
+        <footer role="contentinfo" class="footer__attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#" class="link__attribution">LGBH</a>.
+        </footer>
+      </div>
     </body>
-    
   </body>
 </html>
