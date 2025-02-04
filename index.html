@@ -7,20 +7,20 @@
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <div class="card">
+    <div role="card" class="card__container">
       <img
-        class="illustration"
-        src="./assets/images/illustration-article.svg"
+        class="header__illustration"
+        src="./assets/images/illustration-article.svg" alt="Imagen de fondo"
       />
       <article class="article__content">
-        <div class="tag">Learning</div>
-        <div class="date">Published 02 Feb. 2025</div>
-        <h2>HTML & CSS foundations</h2>
-        <div class="description">
+        <div role="tag" class="article__tag">Learning</div>
+        <div role="date" class="article__date">Published 02 Feb. 2025</div>
+        <h1>HTML & CSS foundations</h1>
+        <div role="descriptions" class="article__description">
           <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
         </div>
-        <div class="perfil">
-          <img class="avatar" src="./assets/images/image-avatar.webp" />
+        <div role="perfil" class="article__perfil">
+          <img class="perfil__avatar" src="./assets/images/image-avatar.webp" alt="Imagen del perfil"/>
           <p>LGBH</p>
         </div>
       </article>      
