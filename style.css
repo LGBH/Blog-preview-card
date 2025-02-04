@@ -35,11 +35,10 @@ body {
   font-family: 'Figtree';
   background-color: var(--White);
   max-width: 440px;
-  min-height: 375px;
+  min-height: 350px;
   padding: 24px;
   border-radius: 18px;
   box-shadow: 10px 10px var(--Gray950); /* sombra */
-  margin: 0;
 
   .header__illustration {
     width: 100%;
@@ -49,7 +48,7 @@ body {
 
 /* Contenido de la tarjeta */
 
-.article__content {
+.card__article {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -92,7 +91,7 @@ body {
   justify-content: start;
   margin-bottom: 15px;
 
-  .illustration, .perfil__avatar {
+  .card__illustration, .perfil__avatar {
     max-width: 100%;
     height: auto;
 }
